@@ -1,24 +1,23 @@
 #include<bits/stdc++.h>
 using namespace    std;
 
-int solve()
+void solve()
 {
-   return 0;
+  // code here
 }
 
-int main(){
-
-   #ifdef ONLINEJUDGE
-       clock_t tStart = clock();
-       freopen("input.txt","r",stdin); //can need to change file . this one for taking input
-       freopen("output.txt","w",stdout); // this one for output
+int main() {
+  #ifdef ONLINEJUDGE
+    clock_t tStart = clock();
+    freopen("input.txt","r",stdin); //can need to change file . this one for taking input
+    freopen("output.txt","w",stdout); // this one for output
   #endif
 
-       // code here
+  // iterator here
 
   #ifdef ONLINEJUDGE
-     fprintf(stderr, "\n>> Runtime: %.10fs\n", (double) (clock() - tStart) / CLOCKS_PER_SEC); // this line gives your code runtime
+    fprintf(stderr, "\n>> Runtime: %.10fs\n", (double) (clock() - tStart) / CLOCKS_PER_SEC); // this line gives your code runtime
   #endif
 
-   return 0;
+  return 0;
 }
